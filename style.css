@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.top-heading{
+    width: 40%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Signika', sans-serif;
+}
+
+#createPasswordBtn{
+    margin: 10px auto;
+    width: auto;
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid #0864f0;
+    border-radius: 40px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(71, 71, 250);
+    /* float: right; */
+}
+
+/* #createPasswordBtn:hover{
+    border: 2px solid #0066ff;
+} */
+
+#createPasswordBtn:focus{
+    outline: none;
+}
+
+.tableIndex{
+    margin: 40px auto;
+    text-align: center;
+    width: 100%;
+}
+
+.tableIndex thead{
+    font-size: 20px;
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+}
+
+.tableIndex td, .tableIndex th {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.tableIndex td{
+    font-family: monospace;
+}
+
+.tableIndex tr:nth-child(even){background-color: #f2f2f2;}
+
+.tableIndex tr:hover {background-color: rgb(210, 243, 245);}
+
+.tableIndex th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: rgb(95, 58, 228);
+  color: white;
+}
+
+#passwordTable {
+    font-size: 20px;
+}
+
+.addMain{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.addHeading{
+    width: 40%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Signika', sans-serif;
+}
+
+#passwordForm {
+	margin:0 auto 0 auto;
+	padding:30px;
+	width:400px;
+	height:auto;
+	overflow:hidden;
+	background:white;
+	border-radius:10px;
+}
+
+#passwordForm label {
+	font-size:14px;
+	color:darkgray;
+	cursor:pointer;
+}
+
+#passwordForm label,
+#passwordForm input {
+	float:left;
+    clear:both;
+}
+
+#passwordForm input {
+	margin:15px 0;
+	padding:15px 10px;
+	width:100%;
+	outline:none;
+	border:1px solid #bbb;
+	border-radius:20px;
+	display:inline-block;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	        box-sizing:border-box;
+    -webkit-transition:0.2s ease all;
+	   -moz-transition:0.2s ease all;
+	    -ms-transition:0.2s ease all;
+	     -o-transition:0.2s ease all;
+	        transition:0.2s ease all;
+}
+
+#passwordForm input[type=text]:focus{
+    border-color:cornflowerblue;
+}
+
+
+#addPasswordButton{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid #0864f0;
+    border-radius: 40px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(71, 71, 250);
+}
+
+/* <a href="https://www.freepik.com/free-photos-vectors/web">Web vector created by stories - www.freepik.com</a>
+<a href="https://www.freepik.com/free-photos-vectors/frame">Frame vector created by starline - www.freepik.com</a>
+*/
