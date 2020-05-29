@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.index-body{
+    width: 100vw;
+    height: 100vh;
+    background: #FFfffa url("Shield\ Block(1).svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main{
@@ -16,23 +26,37 @@
     width: 40%;
     margin: 30px auto;
     text-align: center;
-    font-size: 26px;
+    font-size: 32px;
+    line-height: 38px;
     font-family: 'Signika', sans-serif;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #0377BC;
+}
+
+.button-div{
+    margin: 10px 0px;
+    width: max-content;
+    background: #FFDC00;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+    text-align: center;
 }
 
 #createPasswordBtn{
-    margin: 10px auto;
-    width: auto;
+    border: none;
+    background: #FF9801;
+    border-radius: 30px;
     padding: 15px;
-    font-size: 18px;
-    border: 2px solid #0864f0;
-    border-radius: 40px;
-    font-weight: bold;
-    outline: none;
+    /* outline: none; */
     cursor: pointer;
-    color: white;
-    background-color: rgb(71, 71, 250);
-    /* float: right; */
+    font-size: 18px;
+    /* line-height: 24px; */
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 5px;
 }
 
 /* #createPasswordBtn:hover{
@@ -51,28 +75,27 @@
 
 .tableIndex thead{
     font-size: 20px;
-    font-family: 'Philosopher', sans-serif;
+    font-family: sans-serif;
     text-align: center;
 }
 
 .tableIndex td, .tableIndex th {
-    border: 1px solid #ddd;
+    border: 1px solid #FFfffa;
     padding: 5px;
 }
 
 .tableIndex td{
-    font-family: monospace;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
-.tableIndex tr:nth-child(even){background-color: #f2f2f2;}
-
-.tableIndex tr:hover {background-color: rgb(210, 243, 245);}
+.tableIndex tr:hover {background-color: rgba(185, 229, 255, 0.5);}
 
 .tableIndex th {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-  background-color: rgb(95, 58, 228);
+  background-color: #0377BC;
   color: white;
 }
 
@@ -90,7 +113,11 @@
     margin: 30px auto;
     text-align: center;
     font-size: 26px;
+    line-height: 38px;
     font-family: 'Signika', sans-serif;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #0377BC;
 }
 
 #passwordForm {
@@ -99,14 +126,13 @@
 	width:400px;
 	height:auto;
 	overflow:hidden;
-	background:white;
+	background:rgb(107, 193, 243);
 	border-radius:10px;
 }
 
 #passwordForm label {
-	font-size:14px;
-	color:darkgray;
-	cursor:pointer;
+	font-size:20px;
+	color:#FFfffa;
 }
 
 #passwordForm label,
@@ -137,19 +163,27 @@
     border-color:cornflowerblue;
 }
 
+.btn-container{
+    margin: 10px 0px;
+    display: flex;
+    background: #FFDC00;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+    text-align: center;
+    width: max-content;
+}
 
 #addPasswordButton{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 5px;
     padding: 15px;
     font-size: 18px;
-    border: 2px solid #0864f0;
-    border-radius: 40px;
-    font-weight: bold;
+    border: none;
+    border-radius: 30px;
     outline: none;
     cursor: pointer;
     color: white;
-    background-color: rgb(71, 71, 250);
+    background: #FF9801;
 }
 
 /* <a href="https://www.freepik.com/free-photos-vectors/web">Web vector created by stories - www.freepik.com</a>

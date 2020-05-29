@@ -40,7 +40,6 @@ function main(){
   })
 
   ipcMain.on('delete-password', function(event, password){
-    console.log(password)
     const updatedPasswords = passwordData.deletePassword(password).passwordData;
     mainWindow.send('passwordData', updatedPasswords);
   })

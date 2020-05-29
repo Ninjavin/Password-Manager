@@ -3,8 +3,6 @@
 const { ipcRenderer } = require('electron');
 
 const deletePassword = (e) => {
-    console.log("e: ", e);
-    console.log("e.target: ", e.target)
     ipcRenderer.send('delete-password', e.target.textContent)
 }
 
@@ -14,8 +12,6 @@ document.getElementById('createPasswordBtn').addEventListener('click', () => {
 
 ipcRenderer.on('passwordData', (event, passwords) => {
     const passwordTable = document.getElementById('passwordTable')
-
-    console.log(passwords)
 
     const passwordItems = passwords.reduce((html, password) => {
         
