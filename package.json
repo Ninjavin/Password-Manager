@@ -9,7 +9,7 @@
   "author": "Vineeta Jain",
   "license": "ISC",
   "dependencies": {
-    "electron": "^8.2.5",
+    "electron": "^11.5.0",
     "electron-store": "^5.1.1"
   }
 }
